@@ -1,0 +1,43 @@
+- name: GLaDOS
+  url: https://github.com/imRish/GLaDOS
+  code: https://github.com/imRish/GLaDOS
+  description: GLaDOS is your terminal buddy with features to make your life easier. It aggregates many awesome terminal services and provides easy to use commands written on a laravel based framework laravel-zero.
+  used:
+    - thing: Laravel
+    - thing: Github API
+
+- name: Click-to-Call Plugin
+  url: https://github.com/imRish/twilio-click-to-call
+  code: https://github.com/imRish/twilio-click-to-call
+  description: A click-to-call WordPress plugin which allows your visitors to recieve a call from you using Twilio. It also has a call log page to manage call logs and callers.
+  used:
+    - thing: PHP
+    - thing: Wordpress Plugin Development
+    - thing: Javascript
+    - thing: AJAX
+
+- name: Snippeteer Landing Page
+  url:  https://imrish.github.io/snippeteer/
+  code:  https://imrish.github.io/snippeteer/
+  description: A clean and minimal single-page landing site for snippeteer with support for markdown blog posts.
+  used:
+    - thing: Jekyll
+    - thing: Javascript
+    - thing: Github Pages
+    - thing: AJAX
+
+- name: Beeordeel
+  description: The tool allows the restaurant owners to recieve feedback from their customers and add them to a MailChimp campaign by sharing a coupon code.
+  used:
+    - thing: Laravel
+    - thing: MailChimp API
+
+- name: Consumer Complaint Scraper
+  url:  https://github.com/imRish/consumer-data-scraper
+  code:  https://github.com/imRish/consumer-data-scraper
+  description: This is a micro-service which scrapes data from a consumer complaint forum and stores it to firebase.
+  used:
+    - thing: Firebase
+    - thing: Web Scraping
+    - thing: Node.js
+    - thing: Javascript

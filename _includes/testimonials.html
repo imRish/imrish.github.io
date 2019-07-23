@@ -1,0 +1,20 @@
+<section class="section testimonials">
+  <div class="section__title">Testimonials</div>
+  <div class="section__content">
+    <div class="qoutes">
+      {% for testimonial in site.data.testimonials %}
+      <div class="qoute">
+        <div class="time-place">
+          <div class="job__comment">
+            <strong>{{testimonial.quote}}</strong>
+          </div>
+          <!-- <div class="job__time">{{job.time}}</div> -->
+        </div>
+        <div class="job__position">{{testimonial.from}}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- <a href="{{site.upwork}}" target="_blank" class="arrow-link">View more testimonials on Upwork</a> -->
+  </div>
+</section>

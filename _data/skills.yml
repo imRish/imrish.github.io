@@ -1,0 +1,24 @@
+languages:
+  - item: PHP
+  - item: JavaScript (ES6)
+  - item: HTML
+  - item: CSS
+  - item: SQL
+
+frameworks:
+  - item: Laravel
+  - item: Vue.js
+  - item: Node
+  - item: Electron.js
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+  - item: PhpMyAdmin
+
+design:
+  - item: Figma
+  - item: Sketch
+  - item: Prototyping

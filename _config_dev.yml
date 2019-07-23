@@ -1,0 +1,47 @@
+# Site settings
+name: Rishabh Pandey
+title: Rishabh Pandey | Full Stack Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://rishpandey.me/
+baseurl: ""
+email: hey@rishpandey.me
+cover: https://brittanychiang.com/img/og.png
+logo: https://brittanychiang.com/img/emojis/technologist.png
+resume: https://brittanychiang.com/resume.pdf
+social:
+  - title: email
+    url: mailto:hey@rishpandey.me
+  - title: skype
+    url: https://join.skype.com/invite/tmzOdFPZ2baD
+  - title: github
+    url: https://github.com/imrish
+  - title: linkedin
+    url: https://www.linkedin.com/in/rish95
+  - title: medium
+    url: https://medium.com/@therishabhpandey
+  # - title: soundcloud
+  #   url: https://soundcloud.com/iamrish
+  # - title: instagram
+  #   url: https://instagram.com/therishabhpandey
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

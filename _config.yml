@@ -1,0 +1,44 @@
+# Site settings
+name: Rishabh Pandey
+title: Rishabh Pandey | Full Stack Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://rishpandey.me/
+baseurl: ""
+email: hey@rishpandey.me
+cover: https://brittanychiang.com/img/og.png
+logo: https://brittanychiang.com/img/emojis/technologist.png
+resume: https://brittanychiang.com/resume.pdf
+# upwork: https://www.upwork.com/freelancers/~0188cba11180b3d038
+social:
+  - title: email
+    url: mailto:hey@rishpandey.me
+  # - title: upwork
+  #   url: https://www.upwork.com/freelancers/~0188cba11180b3d038
+  - title: instagram
+    url: https://instagram.com/therishabhpandey
+  - title: github
+    url: https://github.com/imrish
+  - title: linkedin
+    url: https://www.linkedin.com/in/rish95
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
