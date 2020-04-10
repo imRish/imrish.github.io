@@ -6,11 +6,13 @@
       <div class="qoute">
         <div class="time-place">
           <div class="job__comment">
-            <strong>{{testimonial.quote}}</strong>
+            {{testimonial.quote}}
           </div>
           <!-- <div class="job__time">{{job.time}}</div> -->
         </div>
-        <div class="job__position">{{testimonial.from}}</div>
+        <div class="job__position">
+          <strong>{{testimonial.from}}</strong>
+        </div>
       </div>
       {% endfor %}
     </div>

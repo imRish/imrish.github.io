@@ -129,6 +129,7 @@ strong {
     text-transform: uppercase;
     text-align: right;
     font-weight: 700;
+    font-size: 1.1rem;
     letter-spacing: 2px;
     @include desktop {
       margin-right: 50px;
@@ -142,8 +143,8 @@ strong {
     }
   }
   &__content {
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
     width: 100%;
     max-width: 650px;
     @include tablet {

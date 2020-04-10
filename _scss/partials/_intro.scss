@@ -6,20 +6,25 @@
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
+  background-image: url('../img/illustrations/designer.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 45%;
+  background-size: 40%;
   @include weird-medium {
     padding: 120px 70px;
   }
   @include phablet {
     padding: 120px 50px;
+    background: none;
   }
   @include mobile {
     padding: 70px 50px;
   }
 
   &__hello, &__tagline {
-    font-size: 2.5rem;
+    font-size: 2rem;
     @include desktop {
-      font-size: 2.25rem;
+      font-size: 2rem;
     }
     @include tablet {
       font-size: 2rem;
