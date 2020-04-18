@@ -6,10 +6,10 @@
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url('../img/illustrations/designer.svg');
+  background-image: url('../img/illustrations/designer1.svg');
   background-repeat: no-repeat;
-  background-position: 100% 45%;
-  background-size: 40%;
+  background-position: 100% 50%;
+  background-size: 48%;
   @include weird-medium {
     padding: 120px 70px;
   }
@@ -22,7 +22,7 @@
   }
 
   &__hello, &__tagline {
-    font-size: 2rem;
+    font-size: 2.1rem;
     @include desktop {
       font-size: 2rem;
     }
@@ -57,6 +57,9 @@
   }
   &__hello {
     font-weight: 300;
+    .name {
+      font-weight: 800;
+    }
     .wave-hand {
       background-image: url('../img/emojis/wave.png');
       margin-left: 10px;
@@ -98,9 +101,6 @@
   &__tagline {
     font-weight: 300;
     max-width: 700px;
-    .name {
-      font-weight: 700;
-    }
     .technologist {
       background-image: url('../img/emojis/technologist.png');
     }
